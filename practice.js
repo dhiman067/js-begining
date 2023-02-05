@@ -93,3 +93,22 @@ else if(petersNumber>=40){
 else{
     console.log('F')
 }
+
+
+
+// একটা কোড লিখো। যেটা দিয়ে কোন একটা array এর মধ্যে সবচেয়ে ছোট সংখ্যা বের করে দিতে পারবে। 
+const num =[2,4,1,6,5,7];
+console.log(Math.min(...num));
+
+// -------------------
+
+const num1 = [-200,10,-100];
+if(num1[0]<num1[1] && num1[0]<num1[2]){
+    console.log(num1[0]);
+}
+else if(num1[1]<num1[0] && num1[1]<num1[2]){
+    console.log(num1[1]);
+}
+else{
+    console.log(num1[2]);
+}
