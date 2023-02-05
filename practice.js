@@ -112,3 +112,13 @@ else if(num1[1]<num1[0] && num1[1]<num1[2]){
 else{
     console.log(num1[2]);
 }
+
+
+const num2 = [2023,2024,2025,2028,2030];
+for(i=0; i<num2.length; i++){
+    const reslt = num2[i];
+    if(reslt%4 == 0){
+       console.log("leapYear");
+    }
+    console.log(reslt);
+}
